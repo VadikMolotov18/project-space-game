@@ -3,8 +3,6 @@ import time
 from pygame.sprite import Sprite
 import pygame
 
-pygame.mixer.pre_init(44100, -16, 1, 512)
-
 
 class Ino(pygame.sprite.Sprite):  # класс одного пришельца
     def __init__(self, screen):  # инициализируем и задаем начальную позицию
